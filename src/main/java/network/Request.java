@@ -38,7 +38,7 @@ public class Request extends Thread {
                 e.printStackTrace();
             } finally {
                 try {
-                    sleep(10000);
+                    sleep(60000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
